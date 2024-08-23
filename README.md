@@ -3,107 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your SaaS Product</title>
+    <title>Awesome SaaS Product</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #2a9d8f;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-        .hero {
-            background: url('hero-bg.jpg') no-repeat center center/cover;
-            height: 80vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 3rem;
-        }
-        .features, .testimonials, .cta {
-            padding: 50px 20px;
-            text-align: center;
-        }
-        .features h2, .testimonials h2, .cta h2 {
-            color: #264653;
-        }
-        .features .feature-item, .testimonials .testimonial-item {
-            margin: 20px 0;
-        }
-        .cta button {
-            background: #e76f51;
-            color: white;
-            border: none;
-            padding: 15px 30px;
-            font-size: 1rem;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        footer {
-            background: #264653;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Your Product</h1>
-        <p>Transform the way you do business</p>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">SaaS Brand</a>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#" class="cta-btn">Sign Up</a>
+            </nav>
+            <div class="hero">
+                <h1>Revolutionize Your Workflow</h1>
+                <p>Our SaaS product helps you manage your tasks effortlessly and boost your productivity.</p>
+                <a href="#" class="cta-btn">Get Started for Free</a>
+            </div>
+        </div>
     </header>
 
-    <section class="hero">
-        <h1>Welcome to the Future of [Your Product]</h1>
-        <p>Discover the ultimate tool to streamline your workflow.</p>
-        <button>Get Started</button>
-    </section>
-
-    <section class="features">
-        <h2>Features</h2>
-        <div class="feature-item">
-            <h3>Feature 1</h3>
-            <p>Brief description of Feature 1.</p>
-        </div>
-        <div class="feature-item">
-            <h3>Feature 2</h3>
-            <p>Brief description of Feature 2.</p>
-        </div>
-        <div class="feature-item">
-            <h3>Feature 3</h3>
-            <p>Brief description of Feature 3.</p>
-        </div>
-    </section>
-
-    <section class="testimonials">
-        <h2>What Our Users Say</h2>
-        <div class="testimonial-item">
-            <p>"This product changed how we operate!" - Happy Client</p>
-        </div>
-        <div class="testimonial-item">
-            <p>"Incredible experience and fantastic support." - Satisfied Customer</p>
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <img src="feature1.png" alt="Feature 1">
+                    <h3>Feature One</h3>
+                    <p>Description of feature one and its benefits.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="feature2.png" alt="Feature 2">
+                    <h3>Feature Two</h3>
+                    <p>Description of feature two and its benefits.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="feature3.png" alt="Feature 3">
+                    <h3>Feature Three</h3>
+                    <p>Description of feature three and its benefits.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="cta">
-        <h2>Ready to Take the Next Step?</h2>
-        <button>Start Your Free Trial</button>
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <div class="pricing-cards">
+                <div class="card">
+                    <h3>Basic</h3>
+                    <p class="price">$9/mo</p>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+                    <a href="#" class="cta-btn">Choose Plan</a>
+                </div>
+                <div class="card">
+                    <h3>Pro</h3>
+                    <p class="price">$19/mo</p>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                    </ul>
+                    <a href="#" class="cta-btn">Choose Plan</a>
+                </div>
+                <div class="card">
+                    <h3>Enterprise</h3>
+                    <p class="price">$49/mo</p>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                        <li>Feature 5</li>
+                    </ul>
+                    <a href="#" class="cta-btn">Choose Plan</a>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our SaaS product is designed to help businesses improve their productivity and streamline their operations. We believe in delivering value through simplicity and innovation.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us. We’re here to help!</p>
+            <a href="mailto:support@saasbrand.com" class="cta-btn">Email Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 SaaS Brand. All rights reserved.</p>
+        </div>
     </footer>
-</body>
-</html>
 </body>
 </html>
