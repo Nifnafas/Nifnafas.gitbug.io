@@ -28,15 +28,18 @@
     </section>
 
     <section id="services">
-        <!-- Add your content here -->
+        <h2>Our Services</h2>
+        <p>Describe your services here.</p>
     </section>
 
     <section id="about">
-        <!-- Add your content here -->
+        <h2>About Us</h2>
+        <p>Information about your company.</p>
     </section>
 
     <section id="contact">
-        <!-- Add your content here -->
+        <h2>Contact Us</h2>
+        <p>Contact information goes here.</p>
     </section>
 
     <footer>
